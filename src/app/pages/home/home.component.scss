@@ -1,0 +1,10 @@
+.content {
+    margin-left: 10vw;
+    .devices {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 2rem;
+    }
+
+}
